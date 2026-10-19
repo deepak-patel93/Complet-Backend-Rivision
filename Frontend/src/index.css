@@ -1,0 +1,49 @@
+.create{
+   display: flex;
+   flex-direction: column; 
+   justify-content: center;
+   align-items: center;
+   height: 500px;
+   width:700px;
+}
+
+.create-feed{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+ 
+}
+.create-feed input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.create-feed button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+.feed{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 5px;
+  gap:1rem;
+
+}
+.feed-item{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.feed-item image{
+  height: 450px;
+}
